@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 const sessionFactory = require('../factories/sessionFactory');
-const userFactory = require('../factories/userfactory');
+const userFactory = require('../factories/userFactory');
 
 class CustomPage {
   static async build() {
